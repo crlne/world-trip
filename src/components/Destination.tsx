@@ -1,4 +1,4 @@
-import { Center, Flex, Text, WrapItem } from "@chakra-ui/react";
+import { Center, Flex, Text, WrapItem, Image  } from "@chakra-ui/react";
 
 export default function Destination() {
     return (
@@ -15,7 +15,6 @@ export default function Destination() {
                     Então escolha o continente
                 </Text> 
             </Text>
-
         </Flex>
         </Flex>
     )
