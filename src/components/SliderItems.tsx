@@ -10,7 +10,7 @@ export function SliderItems({ title, subtitle, image }: SliderItemProps) {
   return (
     <Flex
       height={[250, 450]}
-      
+         
       justify="center"
       align="center"
       direction="column"

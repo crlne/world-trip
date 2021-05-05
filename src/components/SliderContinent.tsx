@@ -13,7 +13,7 @@ SwiperCore.use([Navigation, Pagination])
 
 export default function SliderContinent() {
     return (
-        <Box mt="3.25rem" mb="2.5rem" maxHeight="450px" width="1240px">
+        <Box mt="3.25rem" mb="2.5rem" maxHeight="450px" width="1240px" ml="100">
         <Swiper navigation grabCursor className="mySwiper" pagination={{ clickable: true }}> 
 
         <SwiperSlide>
