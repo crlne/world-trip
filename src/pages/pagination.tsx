@@ -1,6 +1,7 @@
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text, HStack } from "@chakra-ui/react";
 import Header from "../components/Header";
 import { SliderItems } from "../components/SliderItems";
+import PaginationCities  from "../components/PaginationCities";
 
 interface SliderItemProps {
     title: string
@@ -56,15 +57,22 @@ export default function Pagination({ title, subtitle, image }: SliderItemProps) 
                   </Heading>
               </Text>
           </Box>
-         
 
+          <Flex maxW="1160" height="700" ml="140" mt="150" flexDirection="column">  
+            <Box maxW="246" height="54" position="absolute">
+              <Text fontSize="2rem" fontWeight="500" lineHeght="54px" align="right" color="gray.500">
+                  Cidades +100
+                  </Text>
+              </Box>
 
+              <Box maxW="1160" height="700" flexDirection="row" mt="20">       
+                <PaginationCities />
+              </Box>
+  
+           
+           
+          </Flex>
 
-          
-
-
-
-        
         </>
     )
 }
