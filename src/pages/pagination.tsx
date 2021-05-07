@@ -15,10 +15,11 @@ export default function Pagination({ title, subtitle, image }: SliderItemProps) 
         <Header />
        
         <SliderItems
-            title="Europa"
+            title=""
             subtitle=""
             image="./pagination.png"
           />
+          <Text mt="-20" mx="150" fontSize="3rem" fontWeight="600" color="gray.50">Europa</Text>
 
           <Box maxWidth={600} height={211} ml="140" mt="20">
               <Text fontSize="1.5rem" fontWeight="400" lineHeight="36px" align="justify">
